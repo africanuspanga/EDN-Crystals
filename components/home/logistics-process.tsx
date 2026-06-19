@@ -1,7 +1,7 @@
 "use client";
 
+import { motion } from "framer-motion";
 import { SectionHeading } from "@/components/shared/section-heading";
-import { TimelineStep } from "@/components/shared/timeline-step";
 
 const steps = [
   {
@@ -44,7 +44,7 @@ const steps = [
 
 export function LogisticsProcess() {
   return (
-    <section className="bg-white py-20 sm:py-28 lg:py-36">
+    <section className="bg-[#f8fafc] py-20 sm:py-28 lg:py-36">
       <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-10">
         <SectionHeading
           eyebrow="How It Works"
@@ -53,32 +53,26 @@ export function LogisticsProcess() {
           className="mx-auto mb-14 max-w-3xl lg:mb-20"
         />
 
-        {/* Desktop horizontal timeline */}
-        <div className="relative hidden lg:block">
-          <div className="absolute left-0 right-0 top-8 h-[2px] bg-[#ce9f3d]/30" />
-          <div className="relative grid grid-cols-6 gap-4">
-            {steps.map((step, index) => (
-              <TimelineStep
-                key={step.number}
-                number={step.number}
-                title={step.title}
-                description={step.description}
-                isLast={index === steps.length - 1}
-              />
-            ))}
-          </div>
-        </div>
-
-        {/* Mobile vertical timeline */}
-        <div className="space-y-8 lg:hidden">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {steps.map((step, index) => (
-            <TimelineStep
+            <motion.div
               key={step.number}
-              number={step.number}
-              title={step.title}
-              description={step.description}
-              isLast={index === steps.length - 1}
-            />
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 0.4, delay: index * 0.06 }}
+              className="rounded-2xl border border-[#e5e7eb] bg-white p-6 transition-shadow duration-300 hover:shadow-md sm:p-8"
+            >
+              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#f6eedc] text-sm font-semibold text-[#10265f]">
+                {step.number}
+              </span>
+              <h3 className="mt-5 text-lg font-semibold text-[#07132f]">
+                {step.title}
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-[#667085]">
+                {step.description}
+              </p>
+            </motion.div>
           ))}
         </div>
       </div>
