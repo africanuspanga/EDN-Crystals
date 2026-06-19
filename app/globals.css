@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+
+  --brand-blue: #2849a2;
+  --brand-gold: #ce9f3d;
+  --brand-white: #ffffff;
+  --deep-navy: #07132f;
+  --dark-blue: #10265f;
+  --soft-blue: #edf2ff;
+  --soft-gold: #f6eedc;
+  --text-dark: #111827;
+  --text-muted: #667085;
+  --border-light: #e5e7eb;
+  --surface-light: #f8fafc;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-readex-pro), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-brand-blue: #2849a2;
+  --color-brand-gold: #ce9f3d;
+  --color-brand-white: #ffffff;
+  --color-deep-navy: #07132f;
+  --color-dark-blue: #10265f;
+  --color-soft-blue: #edf2ff;
+  --color-soft-gold: #f6eedc;
+  --color-text-dark: #111827;
+  --color-text-muted: #667085;
+  --color-border-light: #e5e7eb;
+  --color-surface-light: #f8fafc;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-readex-pro), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@utility hero-title {
+  letter-spacing: -0.055em;
+  line-height: 0.88;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
