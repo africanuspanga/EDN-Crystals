@@ -12,7 +12,7 @@ export const siteAssets = {
   port: "/images/hero-poster.jpg",
   services: {
     clearingForwarding: "/images/clearing-forwarding.png",
-    customsClearance: "/images/clearing-forwarding.png",
+    customsClearance: "/images/customs-clearance.jpg",
     seaFreight: "/images/sea-freight.jpg",
     seaFreightInternational: "/images/sea-freight-international.jpg",
     airFreight: "/images/air-freight.jpg",
