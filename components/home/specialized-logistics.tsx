@@ -8,7 +8,7 @@ import { siteAssets } from "@/data/assets";
 
 export function SpecializedLogistics() {
   return (
-    <section className="overflow-hidden bg-[#edf2ff] py-20 sm:py-28 lg:py-36">
+    <section className="overflow-hidden bg-[#e6eefd] py-20 sm:py-28 lg:py-36">
       <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-10">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <motion.div

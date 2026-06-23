@@ -63,10 +63,10 @@ export function LogisticsProcess() {
               transition={{ duration: 0.4, delay: index * 0.06 }}
               className="rounded-2xl border border-[#e5e7eb] bg-white p-6 transition-shadow duration-300 hover:shadow-md sm:p-8"
             >
-              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#f6eedc] text-sm font-semibold text-[#10265f]">
+              <span className="flex h-11 w-11 items-center justify-center rounded-full bg-[#f5efe1] text-sm font-semibold text-[#0038b8]">
                 {step.number}
               </span>
-              <h3 className="mt-5 text-lg font-semibold text-[#07132f]">
+              <h3 className="mt-5 text-lg font-semibold text-[#002a8a]">
                 {step.title}
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-[#667085]">

@@ -13,7 +13,7 @@ export function SiteFooter() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#10265f] pb-20 text-white lg:pb-0">
+    <footer className="bg-[#0038b8] pb-20 text-white lg:pb-0">
       <div className="mx-auto max-w-[1440px] px-4 py-16 sm:px-6 lg:px-10">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-4">
@@ -38,7 +38,7 @@ export function SiteFooter() {
 
           <div className="grid gap-8 sm:grid-cols-2 lg:col-span-5 lg:grid-cols-3">
             <div>
-              <h3 className="text-sm font-semibold text-[#ce9f3d]">Company</h3>
+              <h3 className="text-sm font-semibold text-[#d2a456]">Company</h3>
               <ul className="mt-4 space-y-2.5">
                 {footerCompanyLinks.map((link) => (
                   <li key={link.href}>
@@ -54,7 +54,7 @@ export function SiteFooter() {
             </div>
 
             <div>
-              <h3 className="text-sm font-semibold text-[#ce9f3d]">Services</h3>
+              <h3 className="text-sm font-semibold text-[#d2a456]">Services</h3>
               <ul className="mt-4 space-y-2.5">
                 {footerServiceLinks.map((link) => (
                   <li key={link.href}>
@@ -70,7 +70,7 @@ export function SiteFooter() {
             </div>
 
             <div>
-              <h3 className="text-sm font-semibold text-[#ce9f3d]">Legal</h3>
+              <h3 className="text-sm font-semibold text-[#d2a456]">Legal</h3>
               <ul className="mt-4 space-y-2.5">
                 {footerLegalLinks.map((link) => (
                   <li key={link.href}>
@@ -87,29 +87,41 @@ export function SiteFooter() {
           </div>
 
           <div className="lg:col-span-3">
-            <h3 className="text-sm font-semibold text-[#ce9f3d]">Contact</h3>
+            <h3 className="text-sm font-semibold text-[#d2a456]">Contact</h3>
             <ul className="mt-4 space-y-4">
-              <li>
+              <li className="space-y-1">
                 <a
                   href={`tel:${siteConfig.telephone.replace(/\s/g, "")}`}
                   className="flex items-start gap-3 text-sm text-white/75 transition-colors hover:text-white"
                 >
-                  <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[#ce9f3d]" />
+                  <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[#d2a456]" />
                   {siteConfig.telephone}
                 </a>
+                <a
+                  href={`tel:${siteConfig.secondaryTelephone.replace(/\s/g, "")}`}
+                  className="flex items-start gap-3 pl-7 text-sm text-white/75 transition-colors hover:text-white"
+                >
+                  {siteConfig.secondaryTelephone}
+                </a>
               </li>
-              <li>
+              <li className="space-y-1">
                 <a
                   href={`mailto:${siteConfig.email}`}
                   className="flex items-start gap-3 text-sm text-white/75 transition-colors hover:text-white"
                 >
-                  <Mail className="mt-0.5 h-4 w-4 shrink-0 text-[#ce9f3d]" />
+                  <Mail className="mt-0.5 h-4 w-4 shrink-0 text-[#d2a456]" />
                   {siteConfig.email}
+                </a>
+                <a
+                  href={`mailto:${siteConfig.secondaryEmail}`}
+                  className="flex items-start gap-3 pl-7 text-sm text-white/75 transition-colors hover:text-white"
+                >
+                  {siteConfig.secondaryEmail}
                 </a>
               </li>
               <li>
                 <span className="flex items-start gap-3 text-sm text-white/75">
-                  <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#ce9f3d]" />
+                  <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#d2a456]" />
                   {siteConfig.address.street}, {siteConfig.address.city}
                 </span>
               </li>
@@ -119,7 +131,15 @@ export function SiteFooter() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 sm:flex-row">
           <p className="text-xs text-white/60">
-            © {currentYear} {siteConfig.name}. All rights reserved.
+            © {currentYear} {siteConfig.name}. All rights reserved.{" "}
+            <a
+              href="https://www.driftmark.co.tz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="sr-only"
+            >
+              Website by Driftmark
+            </a>
           </p>
           <p className="text-xs text-white/60">
             Designed for logistics across Tanzania, Africa and worldwide.

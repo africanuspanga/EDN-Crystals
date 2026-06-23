@@ -29,7 +29,7 @@ export function SectionHeading({
       {eyebrow && <GoldLabel className="mb-4">{eyebrow}</GoldLabel>}
       <h2
         className={cn(
-          "text-3xl font-medium tracking-tight text-[#07132f] sm:text-4xl lg:text-5xl",
+          "text-3xl font-medium tracking-tight text-[#002a8a] sm:text-4xl lg:text-5xl",
           titleClassName
         )}
       >

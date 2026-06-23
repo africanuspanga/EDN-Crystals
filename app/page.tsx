@@ -2,6 +2,7 @@ import { createMetadata } from "@/lib/metadata";
 import { organizationJsonLd, localBusinessJsonLd } from "@/lib/schema";
 import { HeroSection } from "@/components/home/hero-section";
 import { CompanyIntroduction } from "@/components/home/company-introduction";
+import { OfficeBranches } from "@/components/home/office-branches";
 import { ServiceOverview } from "@/components/home/service-overview";
 import { DestinationAdvisory } from "@/components/home/destination-advisory";
 import { WhyChooseUs } from "@/components/home/why-choose-us";
@@ -24,6 +25,7 @@ export default function HomePage() {
       />
       <HeroSection />
       <CompanyIntroduction />
+      <OfficeBranches />
       <ServiceOverview />
       <DestinationAdvisory />
       <WhyChooseUs />

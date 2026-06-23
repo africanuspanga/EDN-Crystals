@@ -97,7 +97,7 @@ export default function AboutPage() {
               </p>
               <p>
                 {/* TODO: Replace with verified establishment year and history */}
-                <span className="font-medium text-[#07132f]">
+                <span className="font-medium text-[#002a8a]">
                   Company history:
                 </span>{" "}
                 Detailed historical information, including the year of
@@ -111,8 +111,8 @@ export default function AboutPage() {
       <section className="bg-[#f8fafc] py-20 sm:py-28 lg:py-36">
         <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-10">
           <div className="grid gap-10 lg:grid-cols-2">
-            <div className="rounded-3xl bg-[#10265f] p-8 text-white sm:p-10 lg:p-12">
-              <span className="text-xs font-semibold uppercase tracking-[0.14em] text-[#ce9f3d]">
+            <div className="rounded-3xl bg-[#0038b8] p-8 text-white sm:p-10 lg:p-12">
+              <span className="text-xs font-semibold uppercase tracking-[0.14em] text-[#d2a456]">
                 Vision
               </span>
               <h2 className="mt-4 text-2xl font-medium tracking-tight sm:text-3xl">
@@ -121,7 +121,7 @@ export default function AboutPage() {
               </h2>
             </div>
             <div className="rounded-3xl bg-white p-8 sm:p-10 lg:p-12">
-              <span className="text-xs font-semibold uppercase tracking-[0.14em] text-[#ce9f3d]">
+              <span className="text-xs font-semibold uppercase tracking-[0.14em] text-[#d2a456]">
                 Mission
               </span>
               <p className="mt-4 text-base leading-relaxed text-[#667085] sm:text-lg">
@@ -135,19 +135,19 @@ export default function AboutPage() {
           </div>
 
           <div className="mt-8 rounded-3xl border border-[#e5e7eb] bg-white p-8 sm:p-10 lg:p-12">
-            <span className="text-xs font-semibold uppercase tracking-[0.14em] text-[#ce9f3d]">
+            <span className="text-xs font-semibold uppercase tracking-[0.14em] text-[#d2a456]">
               Core Values
             </span>
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
               {values.map((value, index) => (
                 <div
                   key={value}
-                  className="flex items-center gap-3 rounded-xl bg-[#edf2ff] px-4 py-3"
+                  className="flex items-center gap-3 rounded-xl bg-[#e6eefd] px-4 py-3"
                 >
-                  <span className="text-sm font-semibold text-[#2849a2]">
+                  <span className="text-sm font-semibold text-[#0038b8]">
                     0{index + 1}
                   </span>
-                  <span className="text-sm font-medium text-[#07132f]">
+                  <span className="text-sm font-medium text-[#002a8a]">
                     {value}
                   </span>
                 </div>
@@ -177,25 +177,25 @@ export default function AboutPage() {
               />
               <div className="mt-8 grid gap-4 sm:grid-cols-2">
                 <div className="rounded-xl border border-[#e5e7eb] p-5">
-                  <h3 className="font-semibold text-[#07132f]">Tanzania</h3>
+                  <h3 className="font-semibold text-[#002a8a]">Tanzania</h3>
                   <p className="mt-1 text-sm text-[#667085]">
                     Dar es Salaam base with port and airport coordination.
                   </p>
                 </div>
                 <div className="rounded-xl border border-[#e5e7eb] p-5">
-                  <h3 className="font-semibold text-[#07132f]">Africa</h3>
+                  <h3 className="font-semibold text-[#002a8a]">Africa</h3>
                   <p className="mt-1 text-sm text-[#667085]">
                     Coordinated cargo movement between African countries.
                   </p>
                 </div>
                 <div className="rounded-xl border border-[#e5e7eb] p-5">
-                  <h3 className="font-semibold text-[#07132f]">International</h3>
+                  <h3 className="font-semibold text-[#002a8a]">International</h3>
                   <p className="mt-1 text-sm text-[#667085]">
                     Sea and air freight links to global destinations.
                   </p>
                 </div>
                 <div className="rounded-xl border border-[#e5e7eb] p-5">
-                  <h3 className="font-semibold text-[#07132f]">Door-to-Door</h3>
+                  <h3 className="font-semibold text-[#002a8a]">Door-to-Door</h3>
                   <p className="mt-1 text-sm text-[#667085]">
                     Connected service from origin to final delivery.
                   </p>
@@ -206,7 +206,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-[#edf2ff] py-20 sm:py-28 lg:py-36">
+      <section className="bg-[#e6eefd] py-20 sm:py-28 lg:py-36">
         <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-10">
           <SectionHeading
             eyebrow="Logistics Capabilities"
@@ -227,7 +227,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-[#07132f] py-20 sm:py-28 lg:py-36">
+      <section className="bg-[#002a8a] py-20 sm:py-28 lg:py-36">
         <div className="mx-auto max-w-[1440px] px-4 text-center sm:px-6 lg:px-10">
           <h2 className="text-3xl font-medium tracking-tight text-white sm:text-4xl">
             Why choose EDN Crystals?

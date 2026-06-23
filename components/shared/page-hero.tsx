@@ -20,7 +20,7 @@ export function PageHero({
   return (
     <section
       className={cn(
-        "relative flex min-h-[45vh] items-center bg-[#07132f] pb-24 pt-32 sm:min-h-[50vh] sm:pb-32 sm:pt-40",
+        "relative flex min-h-[45vh] items-center bg-[#002a8a] pb-24 pt-32 sm:min-h-[50vh] sm:pb-32 sm:pt-40",
         className
       )}
     >
@@ -34,7 +34,7 @@ export function PageHero({
             priority
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#07132f]/90 via-[#07132f]/70 to-[#07132f]/50" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#002a8a]/90 via-[#002a8a]/70 to-[#002a8a]/50" />
         </>
       )}
       <div className="relative z-10 mx-auto w-full max-w-[1440px] px-4 sm:px-6 lg:px-10">

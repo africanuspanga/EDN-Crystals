@@ -37,8 +37,8 @@ function CapabilityList({ items }: { items: string[] }) {
     <ul className="space-y-3">
       {items.map((item) => (
         <li key={item} className="flex items-start gap-3">
-          <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#ce9f3d]/20">
-            <Check className="h-3 w-3 text-[#ce9f3d]" />
+          <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-[#d2a456]/20">
+            <Check className="h-3 w-3 text-[#d2a456]" />
           </span>
           <span className="text-sm leading-relaxed text-[#667085]">{item}</span>
         </li>
@@ -55,10 +55,10 @@ function ProcessSteps({ steps }: { steps: string[] }) {
           key={step}
           className="rounded-xl border border-[#e5e7eb] bg-[#f8fafc] p-5"
         >
-          <span className="text-sm font-semibold text-[#ce9f3d]">
+          <span className="text-sm font-semibold text-[#d2a456]">
             Step {String(index + 1).padStart(2, "0")}
           </span>
-          <p className="mt-2 text-sm font-medium text-[#07132f]">{step}</p>
+          <p className="mt-2 text-sm font-medium text-[#002a8a]">{step}</p>
         </li>
       ))}
     </ol>
@@ -82,10 +82,10 @@ function ServiceDetail({ service }: { service: Service }) {
           <div className="grid gap-12 lg:grid-cols-3 lg:gap-16">
             <div className="lg:col-span-2">
               <div className="flex items-center gap-3">
-                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#edf2ff]">
-                  <Icon className="h-5 w-5 text-[#2849a2]" />
+                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#e6eefd]">
+                  <Icon className="h-5 w-5 text-[#0038b8]" />
                 </span>
-                <span className="text-xs font-semibold uppercase tracking-[0.14em] text-[#ce9f3d]">
+                <span className="text-xs font-semibold uppercase tracking-[0.14em] text-[#d2a456]">
                   Introduction
                 </span>
               </div>
@@ -95,7 +95,7 @@ function ServiceDetail({ service }: { service: Service }) {
 
               {service.benefits.length > 0 && (
                 <div className="mt-12">
-                  <h2 className="text-xl font-semibold text-[#07132f]">
+                  <h2 className="text-xl font-semibold text-[#002a8a]">
                     What you can expect
                   </h2>
                   <div className="mt-6">
@@ -106,7 +106,7 @@ function ServiceDetail({ service }: { service: Service }) {
 
               {service.capabilities.length > 0 && (
                 <div className="mt-12">
-                  <h2 className="text-xl font-semibold text-[#07132f]">
+                  <h2 className="text-xl font-semibold text-[#002a8a]">
                     Main capabilities
                   </h2>
                   <div className="mt-6">
@@ -117,7 +117,7 @@ function ServiceDetail({ service }: { service: Service }) {
 
               {service.process && service.process.length > 0 && (
                 <div className="mt-12">
-                  <h2 className="text-xl font-semibold text-[#07132f]">
+                  <h2 className="text-xl font-semibold text-[#002a8a]">
                     How this service works
                   </h2>
                   <div className="mt-6">
@@ -127,8 +127,8 @@ function ServiceDetail({ service }: { service: Service }) {
               )}
 
               {service.disclaimer && (
-                <div className="mt-12 rounded-xl border-l-4 border-[#ce9f3d] bg-[#f6eedc] p-5">
-                  <p className="text-sm leading-relaxed text-[#10265f]">
+                <div className="mt-12 rounded-xl border-l-4 border-[#d2a456] bg-[#f5efe1] p-5">
+                  <p className="text-sm leading-relaxed text-[#0038b8]">
                     {service.disclaimer}
                   </p>
                 </div>
@@ -145,7 +145,7 @@ function ServiceDetail({ service }: { service: Service }) {
             </div>
 
             <aside className="lg:col-span-1">
-              <div className="sticky top-28 rounded-2xl bg-[#10265f] p-6 text-white sm:p-8">
+              <div className="sticky top-28 rounded-2xl bg-[#0038b8] p-6 text-white sm:p-8">
                 <h3 className="text-lg font-semibold">
                   Need help with {service.title.toLowerCase()}?
                 </h3>

@@ -30,11 +30,11 @@ export function MobileNavigation({ isOpen, onClose }: MobileNavigationProps) {
   return (
     <div className="fixed inset-0 z-[100] lg:hidden" role="dialog" aria-modal="true">
       <div
-        className="absolute inset-0 bg-[#07132f]/60 backdrop-blur-sm"
+        className="absolute inset-0 bg-[#002a8a]/60 backdrop-blur-sm"
         onClick={onClose}
         aria-hidden="true"
       />
-      <div className="absolute right-0 top-0 h-full w-full max-w-sm overflow-y-auto bg-[#07132f] p-6 shadow-2xl">
+      <div className="absolute right-0 top-0 h-full w-full max-w-sm overflow-y-auto bg-[#002a8a] p-6 shadow-2xl">
         <div className="flex items-center justify-between">
           <span className="text-lg font-semibold text-white">Menu</span>
           <button
@@ -56,7 +56,7 @@ export function MobileNavigation({ isOpen, onClose }: MobileNavigationProps) {
                   className={cn(
                     "block rounded-lg px-3 py-3 text-base font-medium transition-colors",
                     item.label === "Services"
-                      ? "text-[#ce9f3d]"
+                      ? "text-[#d2a456]"
                       : "text-white/90 hover:bg-white/10 hover:text-white"
                   )}
                 >
@@ -89,7 +89,7 @@ export function MobileNavigation({ isOpen, onClose }: MobileNavigationProps) {
             <Link
               href="/request-a-quote"
               onClick={onClose}
-              className="rounded-full bg-[#ce9f3d] px-5 py-3 text-center text-sm font-semibold text-[#10265f] transition-colors hover:bg-[#dcb666]"
+              className="rounded-full bg-[#d2a456] px-5 py-3 text-center text-sm font-semibold text-[#0038b8] transition-colors hover:bg-[#c49a4a]"
             >
               Request a Quote
             </Link>

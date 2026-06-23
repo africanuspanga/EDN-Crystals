@@ -18,15 +18,15 @@ export function Button({
   ...props
 }: ButtonProps) {
   const baseStyles =
-    "inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#ce9f3d] focus:ring-offset-2";
+    "inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#d2a456] focus:ring-offset-2";
 
   const variants = {
     primary:
-      "bg-[#ce9f3d] text-[#10265f] hover:bg-[#dcb666]",
+      "bg-[#d2a456] text-[#0038b8] hover:bg-[#c49a4a]",
     secondary:
       "bg-white/15 text-white border border-white/30 backdrop-blur-sm hover:bg-white/25",
     outline:
-      "bg-transparent text-[#10265f] border border-[#10265f]/20 hover:border-[#ce9f3d] hover:text-[#ce9f3d]",
+      "bg-transparent text-[#0038b8] border border-[#0038b8]/20 hover:border-[#d2a456] hover:text-[#d2a456]",
   };
 
   const content = (

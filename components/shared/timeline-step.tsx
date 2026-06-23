@@ -29,22 +29,22 @@ export function TimelineStep({
       {/* Desktop connector */}
       <div
         className={cn(
-          "absolute left-0 top-3 hidden h-[2px] bg-[#ce9f3d]/40 sm:left-8 sm:top-8 sm:block sm:h-auto sm:w-[2px]",
+          "absolute left-0 top-3 hidden h-[2px] bg-[#d2a456]/40 sm:left-8 sm:top-8 sm:block sm:h-auto sm:w-[2px]",
           isLast ? "sm:bottom-auto sm:h-0" : "sm:bottom-0"
         )}
       />
       {/* Mobile connector */}
       <div
         className={cn(
-          "absolute left-3 top-8 w-[2px] bg-[#ce9f3d]/40 sm:hidden",
+          "absolute left-3 top-8 w-[2px] bg-[#d2a456]/40 sm:hidden",
           isLast ? "h-0" : "h-full"
         )}
       />
       <div className="relative flex flex-col gap-2 sm:items-center sm:text-center">
-        <span className="flex h-10 w-10 items-center justify-center rounded-full border border-[#ce9f3d] bg-[#f6eedc] text-sm font-semibold text-[#10265f]">
+        <span className="flex h-10 w-10 items-center justify-center rounded-full border border-[#d2a456] bg-[#f5efe1] text-sm font-semibold text-[#0038b8]">
           {number}
         </span>
-        <h3 className="mt-2 text-base font-semibold text-[#07132f]">{title}</h3>
+        <h3 className="mt-2 text-base font-semibold text-[#002a8a]">{title}</h3>
         <p className="max-w-xs text-sm leading-relaxed text-[#667085]">
           {description}
         </p>

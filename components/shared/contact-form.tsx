@@ -14,13 +14,13 @@ interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
 function InputField({ label, error, className, ...props }: InputProps) {
   return (
     <div className={cn("space-y-1.5", className)}>
-      <label className="text-sm font-medium text-[#07132f]">
+      <label className="text-sm font-medium text-[#002a8a]">
         {label}
-        {props.required && <span className="ml-1 text-[#ce9f3d]">*</span>}
+        {props.required && <span className="ml-1 text-[#d2a456]">*</span>}
       </label>
       <input
         className={cn(
-          "w-full rounded-lg border bg-white px-4 py-3 text-sm text-[#111827] placeholder:text-[#667085]/60 focus:border-[#ce9f3d] focus:outline-none focus:ring-1 focus:ring-[#ce9f3d]",
+          "w-full rounded-lg border bg-white px-4 py-3 text-sm text-[#111827] placeholder:text-[#667085]/60 focus:border-[#d2a456] focus:outline-none focus:ring-1 focus:ring-[#d2a456]",
           error ? "border-red-400" : "border-[#e5e7eb]"
         )}
         {...props}
@@ -38,13 +38,13 @@ interface TextAreaProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement
 function TextAreaField({ label, error, className, ...props }: TextAreaProps) {
   return (
     <div className={cn("space-y-1.5", className)}>
-      <label className="text-sm font-medium text-[#07132f]">
+      <label className="text-sm font-medium text-[#002a8a]">
         {label}
-        {props.required && <span className="ml-1 text-[#ce9f3d]">*</span>}
+        {props.required && <span className="ml-1 text-[#d2a456]">*</span>}
       </label>
       <textarea
         className={cn(
-          "w-full rounded-lg border bg-white px-4 py-3 text-sm text-[#111827] placeholder:text-[#667085]/60 focus:border-[#ce9f3d] focus:outline-none focus:ring-1 focus:ring-[#ce9f3d]",
+          "w-full rounded-lg border bg-white px-4 py-3 text-sm text-[#111827] placeholder:text-[#667085]/60 focus:border-[#d2a456] focus:outline-none focus:ring-1 focus:ring-[#d2a456]",
           error ? "border-red-400" : "border-[#e5e7eb]"
         )}
         {...props}
@@ -82,15 +82,15 @@ export function ContactForm() {
 
   if (status === "success") {
     return (
-      <div className="rounded-2xl bg-[#edf2ff] p-8 text-center sm:p-12">
-        <h3 className="text-xl font-semibold text-[#07132f]">Message sent</h3>
+      <div className="rounded-2xl bg-[#e6eefd] p-8 text-center sm:p-12">
+        <h3 className="text-xl font-semibold text-[#002a8a]">Message sent</h3>
         <p className="mt-3 text-[#667085]">
           Thank you for contacting us. A member of our logistics team will
           respond as soon as possible.
         </p>
         <button
           onClick={() => setStatus("idle")}
-          className="mt-6 rounded-full bg-[#2849a2] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#10265f]"
+          className="mt-6 rounded-full bg-[#0038b8] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#0038b8]"
         >
           Send another message
         </button>
@@ -148,7 +148,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full rounded-full bg-[#ce9f3d] px-8 py-4 text-sm font-semibold text-[#10265f] transition-colors hover:bg-[#dcb666] disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
+        className="w-full rounded-full bg-[#d2a456] px-8 py-4 text-sm font-semibold text-[#0038b8] transition-colors hover:bg-[#c49a4a] disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
       >
         {status === "loading" ? "Sending..." : "Send Message"}
       </button>

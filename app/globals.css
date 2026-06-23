@@ -4,13 +4,13 @@
   --background: #ffffff;
   --foreground: #111827;
 
-  --brand-blue: #2849a2;
-  --brand-gold: #ce9f3d;
+  --brand-blue: #0038b8;
+  --brand-gold: #d2a456;
   --brand-white: #ffffff;
-  --deep-navy: #07132f;
-  --dark-blue: #10265f;
-  --soft-blue: #edf2ff;
-  --soft-gold: #f6eedc;
+  --deep-navy: #002a8a;
+  --dark-blue: #0038b8;
+  --soft-blue: #e6eefd;
+  --soft-gold: #f5efe1;
   --text-dark: #111827;
   --text-muted: #667085;
   --border-light: #e5e7eb;
@@ -22,13 +22,13 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-readex-pro), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 
-  --color-brand-blue: #2849a2;
-  --color-brand-gold: #ce9f3d;
+  --color-brand-blue: #0038b8;
+  --color-brand-gold: #d2a456;
   --color-brand-white: #ffffff;
-  --color-deep-navy: #07132f;
-  --color-dark-blue: #10265f;
-  --color-soft-blue: #edf2ff;
-  --color-soft-gold: #f6eedc;
+  --color-deep-navy: #002a8a;
+  --color-dark-blue: #0038b8;
+  --color-soft-blue: #e6eefd;
+  --color-soft-gold: #f5efe1;
   --color-text-dark: #111827;
   --color-text-muted: #667085;
   --color-border-light: #e5e7eb;

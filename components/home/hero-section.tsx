@@ -14,7 +14,7 @@ const stats = [
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-[100svh] w-full overflow-hidden bg-[#07132f]">
+    <section className="relative min-h-[100svh] w-full overflow-hidden bg-[#002a8a]">
       {/* Background video */}
       <video
         className="absolute inset-0 h-full w-full object-cover"
@@ -29,9 +29,9 @@ export function HeroSection() {
       </video>
 
       {/* Overlays */}
-      <div className="absolute inset-0 bg-[#07132f]/45" />
-      <div className="absolute inset-0 bg-gradient-to-r from-[#07132f]/90 via-[#07132f]/50 to-[#07132f]/30" />
-      <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-b from-transparent to-[#07132f]" />
+      <div className="absolute inset-0 bg-[#002a8a]/45" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#002a8a]/90 via-[#002a8a]/50 to-[#002a8a]/30" />
+      <div className="absolute inset-x-0 bottom-0 h-64 bg-gradient-to-b from-transparent to-[#002a8a]" />
 
       {/* Content */}
       <div className="relative z-10 flex min-h-[100svh] flex-col justify-center px-4 pb-36 pt-32 sm:px-6 lg:px-10">
@@ -88,7 +88,7 @@ export function HeroSection() {
                   />
                   {index < stats.length - 1 && (
                     <div
-                      className="absolute right-0 top-1/2 hidden h-10 w-px -translate-y-1/2 rotate-12 bg-[#ce9f3d]/40 sm:block"
+                      className="absolute right-0 top-1/2 hidden h-10 w-px -translate-y-1/2 rotate-12 bg-[#d2a456]/40 sm:block"
                       aria-hidden="true"
                     />
                   )}

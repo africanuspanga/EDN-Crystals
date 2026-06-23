@@ -35,7 +35,7 @@ export function DesktopNavigation() {
             </button>
             {open && (
               <div className="absolute left-1/2 top-full z-50 w-72 -translate-x-1/2 pt-3">
-                <div className="rounded-2xl border border-white/10 bg-[#07132f]/95 p-2 shadow-2xl backdrop-blur-xl">
+                <div className="rounded-2xl border border-white/10 bg-[#002a8a]/95 p-2 shadow-2xl backdrop-blur-xl">
                   <ul className="space-y-1">
                     {services.map((service) => (
                       <li key={service.slug}>
@@ -50,7 +50,7 @@ export function DesktopNavigation() {
                     <li>
                       <Link
                         href="/services"
-                        className="block rounded-lg px-4 py-2.5 text-sm font-medium text-[#ce9f3d] transition-colors hover:bg-white/10"
+                        className="block rounded-lg px-4 py-2.5 text-sm font-medium text-[#d2a456] transition-colors hover:bg-white/10"
                       >
                         View all services
                       </Link>
@@ -68,7 +68,7 @@ export function DesktopNavigation() {
           >
             <span className="relative">
               {item.label}
-              <span className="absolute -bottom-1 left-0 h-[1.5px] w-0 bg-[#ce9f3d] transition-all duration-300 group-hover:w-full" />
+              <span className="absolute -bottom-1 left-0 h-[1.5px] w-0 bg-[#d2a456] transition-all duration-300 group-hover:w-full" />
             </span>
           </Link>
         )
