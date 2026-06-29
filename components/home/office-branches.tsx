@@ -1,11 +1,11 @@
+import Image from "next/image";
 import { SectionHeading } from "@/components/shared/section-heading";
-import { MapPin } from "lucide-react";
 
 const branches = [
-  { country: "RWANDA", city: "Kigali" },
-  { country: "BURUNDI", city: "Bujumbura" },
-  { country: "UGANDA", city: "Kampala" },
-  { country: "KENYA", city: "Nairobi" },
+  { country: "Rwanda", city: "Kigali", flag: "/icons/rwanda.png" },
+  { country: "Burundi", city: "Bujumbura", flag: "/icons/burundi.png" },
+  { country: "Uganda", city: "Kampala", flag: "/icons/uganda.png" },
+  { country: "Kenya", city: "Nairobi", flag: "/icons/world.png" },
 ];
 
 export function OfficeBranches() {
@@ -26,8 +26,14 @@ export function OfficeBranches() {
               key={branch.country}
               className="group rounded-2xl border border-[#e5e7eb] bg-[#f8fafc] p-6 transition-all duration-200 hover:border-[#d2a456] hover:shadow-md"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#1b294c]/10">
-                <MapPin className="h-5 w-5 text-[#1b294c]" />
+              <div className="relative h-11 w-16 overflow-hidden rounded-md shadow-sm">
+                <Image
+                  src={branch.flag}
+                  alt={`${branch.country} flag`}
+                  fill
+                  className="object-cover"
+                  sizes="64px"
+                />
               </div>
               <h3 className="mt-5 text-lg font-semibold text-[#1b294c]">
                 {branch.country}
