@@ -83,7 +83,7 @@ function ServiceDetail({ service }: { service: Service }) {
             <div className="lg:col-span-2">
               <div className="flex items-center gap-3">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#e6eefd]">
-                  <Icon className="h-5 w-5 text-[#0038b8]" />
+                  <Icon className="h-5 w-5 text-[#002a8a]" />
                 </span>
                 <span className="text-xs font-semibold uppercase tracking-[0.14em] text-[#d2a456]">
                   Introduction
@@ -128,7 +128,7 @@ function ServiceDetail({ service }: { service: Service }) {
 
               {service.disclaimer && (
                 <div className="mt-12 rounded-xl border-l-4 border-[#d2a456] bg-[#f5efe1] p-5">
-                  <p className="text-sm leading-relaxed text-[#0038b8]">
+                  <p className="text-sm leading-relaxed text-[#002a8a]">
                     {service.disclaimer}
                   </p>
                 </div>
@@ -145,7 +145,7 @@ function ServiceDetail({ service }: { service: Service }) {
             </div>
 
             <aside className="lg:col-span-1">
-              <div className="sticky top-28 rounded-2xl bg-[#0038b8] p-6 text-white sm:p-8">
+              <div className="sticky top-28 rounded-2xl bg-[#002a8a] p-6 text-white sm:p-8">
                 <h3 className="text-lg font-semibold">
                   Need help with {service.title.toLowerCase()}?
                 </h3>

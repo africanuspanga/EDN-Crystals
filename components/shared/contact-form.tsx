@@ -90,7 +90,7 @@ export function ContactForm() {
         </p>
         <button
           onClick={() => setStatus("idle")}
-          className="mt-6 rounded-full bg-[#0038b8] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#0038b8]"
+          className="mt-6 rounded-full bg-[#002a8a] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#002a8a]"
         >
           Send another message
         </button>
@@ -148,7 +148,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full rounded-full bg-[#d2a456] px-8 py-4 text-sm font-semibold text-[#0038b8] transition-colors hover:bg-[#c49a4a] disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
+        className="w-full rounded-full bg-[#d2a456] px-8 py-4 text-sm font-semibold text-[#002a8a] transition-colors hover:bg-[#c49a4a] disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
       >
         {status === "loading" ? "Sending..." : "Send Message"}
       </button>

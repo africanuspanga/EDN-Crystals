@@ -29,7 +29,7 @@ export function CompanyIntroduction() {
           </p>
           <Link
             href="/about"
-            className="group mt-8 inline-flex items-center gap-2 text-sm font-semibold text-[#0038b8] transition-colors hover:text-[#0038b8]"
+            className="group mt-8 inline-flex items-center gap-2 text-sm font-semibold text-[#002a8a] transition-colors hover:text-[#002a8a]"
           >
             Learn more about EDN Crystals
             <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />

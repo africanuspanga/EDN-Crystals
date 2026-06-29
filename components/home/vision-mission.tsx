@@ -22,7 +22,7 @@ export function VisionMission() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="rounded-3xl border border-white/10 bg-[#0038b8] p-8 sm:p-10 lg:col-span-7 lg:p-14"
+            className="rounded-3xl border border-white/10 bg-[#002a8a] p-8 sm:p-10 lg:col-span-7 lg:p-14"
           >
             <GoldLabel>Vision</GoldLabel>
             <h2 className="mt-4 text-2xl font-medium tracking-tight text-white sm:text-3xl lg:text-4xl">
@@ -38,7 +38,7 @@ export function VisionMission() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="flex-1 rounded-3xl border border-white/10 bg-[#0038b8] p-8 sm:p-10"
+              className="flex-1 rounded-3xl border border-white/10 bg-[#002a8a] p-8 sm:p-10"
             >
               <GoldLabel>Mission</GoldLabel>
               <p className="mt-4 text-base leading-relaxed text-white/85 sm:text-lg">
@@ -55,7 +55,7 @@ export function VisionMission() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="rounded-3xl border border-white/10 bg-[#0038b8] p-8 sm:p-10"
+              className="rounded-3xl border border-white/10 bg-[#002a8a] p-8 sm:p-10"
             >
               <GoldLabel>Core Values</GoldLabel>
               <ul className="mt-5 grid gap-3 sm:grid-cols-2">

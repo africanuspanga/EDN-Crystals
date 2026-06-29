@@ -111,7 +111,7 @@ export default function AboutPage() {
       <section className="bg-[#f8fafc] py-20 sm:py-28 lg:py-36">
         <div className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-10">
           <div className="grid gap-10 lg:grid-cols-2">
-            <div className="rounded-3xl bg-[#0038b8] p-8 text-white sm:p-10 lg:p-12">
+            <div className="rounded-3xl bg-[#002a8a] p-8 text-white sm:p-10 lg:p-12">
               <span className="text-xs font-semibold uppercase tracking-[0.14em] text-[#d2a456]">
                 Vision
               </span>
@@ -144,7 +144,7 @@ export default function AboutPage() {
                   key={value}
                   className="flex items-center gap-3 rounded-xl bg-[#e6eefd] px-4 py-3"
                 >
-                  <span className="text-sm font-semibold text-[#0038b8]">
+                  <span className="text-sm font-semibold text-[#002a8a]">
                     0{index + 1}
                   </span>
                   <span className="text-sm font-medium text-[#002a8a]">

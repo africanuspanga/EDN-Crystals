@@ -6,7 +6,7 @@ import { GoldLabel } from "@/components/shared/gold-label";
 
 export function DestinationAdvisory() {
   return (
-    <section className="relative overflow-hidden bg-[#0038b8] py-20 sm:py-28 lg:py-36">
+    <section className="relative overflow-hidden bg-[#002a8a] py-20 sm:py-28 lg:py-36">
       {/* Decorative grid lines */}
       <div className="pointer-events-none absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:4rem_4rem]" />

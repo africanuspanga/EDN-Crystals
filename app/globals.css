@@ -4,11 +4,11 @@
   --background: #ffffff;
   --foreground: #111827;
 
-  --brand-blue: #0038b8;
+  --brand-blue: #002a8a;
   --brand-gold: #d2a456;
   --brand-white: #ffffff;
   --deep-navy: #002a8a;
-  --dark-blue: #0038b8;
+  --dark-blue: #002a8a;
   --soft-blue: #e6eefd;
   --soft-gold: #f5efe1;
   --text-dark: #111827;
@@ -22,11 +22,11 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-readex-pro), system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 
-  --color-brand-blue: #0038b8;
+  --color-brand-blue: #002a8a;
   --color-brand-gold: #d2a456;
   --color-brand-white: #ffffff;
   --color-deep-navy: #002a8a;
-  --color-dark-blue: #0038b8;
+  --color-dark-blue: #002a8a;
   --color-soft-blue: #e6eefd;
   --color-soft-gold: #f5efe1;
   --color-text-dark: #111827;

@@ -55,7 +55,7 @@ export function ServiceCard({
         </span>
       </div>
       <div className="flex flex-1 flex-col justify-center p-5 sm:p-6">
-        <h3 className="text-lg font-semibold text-[#002a8a] group-hover:text-[#0038b8] sm:text-xl">
+        <h3 className="text-lg font-semibold text-[#002a8a] group-hover:text-[#002a8a] sm:text-xl">
           {title}
         </h3>
         <p className="mt-2 flex-1 text-sm leading-relaxed text-[#667085]">

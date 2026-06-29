@@ -34,7 +34,7 @@ export default function ContactPage() {
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-3 flex items-start gap-3 text-sm leading-relaxed text-[#667085] transition-colors hover:text-[#0038b8]"
+                  className="mt-3 flex items-start gap-3 text-sm leading-relaxed text-[#667085] transition-colors hover:text-[#002a8a]"
                 >
                   <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#d2a456]" />
                   <span>
@@ -60,14 +60,14 @@ export default function ContactPage() {
                 <div className="mt-3 space-y-2">
                   <a
                     href={`tel:${siteConfig.telephone.replace(/\s/g, "")}`}
-                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#0038b8]"
+                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#002a8a]"
                   >
                     <Phone className="h-4 w-4 text-[#d2a456]" />
                     {siteConfig.telephone}
                   </a>
                   <a
                     href={`tel:${siteConfig.secondaryTelephone.replace(/\s/g, "")}`}
-                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#0038b8]"
+                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#002a8a]"
                   >
                     <Phone className="h-4 w-4 text-[#d2a456]" />
                     {siteConfig.secondaryTelephone}
@@ -80,14 +80,14 @@ export default function ContactPage() {
                 <div className="mt-3 space-y-2">
                   <a
                     href={`mailto:${siteConfig.email}`}
-                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#0038b8]"
+                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#002a8a]"
                   >
                     <Mail className="h-4 w-4 text-[#d2a456]" />
                     {siteConfig.email}
                   </a>
                   <a
                     href={`mailto:${siteConfig.secondaryEmail}`}
-                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#0038b8]"
+                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#002a8a]"
                   >
                     <Mail className="h-4 w-4 text-[#d2a456]" />
                     {siteConfig.secondaryEmail}
@@ -117,7 +117,7 @@ export default function ContactPage() {
           {/* Map placeholder */}
           <div className="mt-16 overflow-hidden rounded-2xl border border-[#e5e7eb] bg-[#e6eefd]">
             <div className="flex h-80 flex-col items-center justify-center p-6 text-center sm:h-96">
-              <MapPin className="h-10 w-10 text-[#0038b8]" />
+              <MapPin className="h-10 w-10 text-[#002a8a]" />
               <h3 className="mt-4 text-lg font-semibold text-[#002a8a]">
                 Office Location
               </h3>

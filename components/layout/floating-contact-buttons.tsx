@@ -34,7 +34,7 @@ export function FloatingContactButtons() {
         {showScrollTop && (
           <button
             onClick={scrollToTop}
-            className="flex h-11 w-11 items-center justify-center rounded-full bg-[#0038b8] text-white shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#d2a456]"
+            className="flex h-11 w-11 items-center justify-center rounded-full bg-[#002a8a] text-white shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#d2a456]"
             aria-label="Scroll to top"
           >
             <ArrowUp className="h-5 w-5" />
@@ -59,7 +59,7 @@ export function FloatingContactButtons() {
         )}
         <a
           href={phoneHref}
-          className="flex h-12 w-12 items-center justify-center rounded-full bg-[#d2a456] text-[#0038b8] shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white"
+          className="flex h-12 w-12 items-center justify-center rounded-full bg-[#d2a456] text-[#002a8a] shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white"
           aria-label="Call us"
         >
           <Phone className="h-5 w-5" />
@@ -96,7 +96,7 @@ export function FloatingContactButtons() {
         )}
         <Link
           href="/request-a-quote"
-          className="flex flex-1 items-center justify-center rounded-full bg-white py-3 text-sm font-semibold text-[#0038b8] transition-colors hover:bg-white/90"
+          className="flex flex-1 items-center justify-center rounded-full bg-white py-3 text-sm font-semibold text-[#002a8a] transition-colors hover:bg-white/90"
         >
           Quote
         </Link>

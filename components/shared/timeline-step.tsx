@@ -41,7 +41,7 @@ export function TimelineStep({
         )}
       />
       <div className="relative flex flex-col gap-2 sm:items-center sm:text-center">
-        <span className="flex h-10 w-10 items-center justify-center rounded-full border border-[#d2a456] bg-[#f5efe1] text-sm font-semibold text-[#0038b8]">
+        <span className="flex h-10 w-10 items-center justify-center rounded-full border border-[#d2a456] bg-[#f5efe1] text-sm font-semibold text-[#002a8a]">
           {number}
         </span>
         <h3 className="mt-2 text-base font-semibold text-[#002a8a]">{title}</h3>

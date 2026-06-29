@@ -15,7 +15,7 @@ export function FinalCTA() {
         className="object-cover opacity-30"
         sizes="100vw"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-[#002a8a]/95 via-[#002a8a]/85 to-[#0038b8]/70" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#002a8a]/95 via-[#002a8a]/85 to-[#002a8a]/70" />
 
       <div className="relative z-10 mx-auto max-w-[1440px] px-4 text-center sm:px-6 lg:px-10">
         <h2 className="mx-auto max-w-4xl text-3xl font-medium tracking-tight text-white sm:text-4xl lg:text-5xl">

@@ -40,7 +40,7 @@ export function IndustriesSection() {
         <div className="mt-12 text-center">
           <Link
             href="/industries"
-            className="group inline-flex items-center gap-2 rounded-full bg-[#0038b8] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#0038b8]"
+            className="group inline-flex items-center gap-2 rounded-full bg-[#002a8a] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#002a8a]"
           >
             View all industries
             <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />

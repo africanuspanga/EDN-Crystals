@@ -39,7 +39,7 @@ export default function IndustriesPage() {
             ))}
           </div>
 
-          <div className="mt-16 rounded-3xl bg-[#0038b8] p-8 text-center sm:p-12">
+          <div className="mt-16 rounded-3xl bg-[#002a8a] p-8 text-center sm:p-12">
             <h2 className="text-2xl font-medium tracking-tight text-white sm:text-3xl">
               Not sure which service fits your industry?
             </h2>

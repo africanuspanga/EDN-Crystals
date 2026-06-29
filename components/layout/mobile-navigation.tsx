@@ -89,7 +89,7 @@ export function MobileNavigation({ isOpen, onClose }: MobileNavigationProps) {
             <Link
               href="/request-a-quote"
               onClick={onClose}
-              className="rounded-full bg-[#d2a456] px-5 py-3 text-center text-sm font-semibold text-[#0038b8] transition-colors hover:bg-[#c49a4a]"
+              className="rounded-full bg-[#d2a456] px-5 py-3 text-center text-sm font-semibold text-[#002a8a] transition-colors hover:bg-[#c49a4a]"
             >
               Request a Quote
             </Link>

@@ -149,7 +149,7 @@ export function QuoteForm() {
         </p>
         <button
           onClick={() => setStatus("idle")}
-          className="mt-6 rounded-full bg-[#0038b8] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#0038b8]"
+          className="mt-6 rounded-full bg-[#002a8a] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#002a8a]"
         >
           Submit another request
         </button>
@@ -278,7 +278,7 @@ export function QuoteForm() {
         <input
           type="file"
           disabled
-          className="mt-2 block w-full text-sm text-[#667085] file:mr-4 file:rounded-full file:border-0 file:bg-[#0038b8] file:px-4 file:py-2 file:text-xs file:font-medium file:text-white disabled:cursor-not-allowed disabled:opacity-50"
+          className="mt-2 block w-full text-sm text-[#667085] file:mr-4 file:rounded-full file:border-0 file:bg-[#002a8a] file:px-4 file:py-2 file:text-xs file:font-medium file:text-white disabled:cursor-not-allowed disabled:opacity-50"
         />
         <p className="mt-2 text-xs text-[#667085]">
           File upload is not yet connected to a backend. Please describe your
@@ -291,7 +291,7 @@ export function QuoteForm() {
           <input
             type="checkbox"
             {...register("consent")}
-            className="mt-1 h-4 w-4 rounded border-[#e5e7eb] text-[#0038b8] focus:ring-[#d2a456]"
+            className="mt-1 h-4 w-4 rounded border-[#e5e7eb] text-[#002a8a] focus:ring-[#d2a456]"
           />
           <span className="text-sm text-[#667085]">
             I agree that EDN Crystals Logistics Limited may contact me about my
@@ -312,7 +312,7 @@ export function QuoteForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full rounded-full bg-[#d2a456] px-8 py-4 text-sm font-semibold text-[#0038b8] transition-colors hover:bg-[#c49a4a] disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
+        className="w-full rounded-full bg-[#d2a456] px-8 py-4 text-sm font-semibold text-[#002a8a] transition-colors hover:bg-[#c49a4a] disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
       >
         {status === "loading" ? "Submitting..." : "Request a Quote"}
       </button>
