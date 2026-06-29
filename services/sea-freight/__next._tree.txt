@@ -1,0 +1,3 @@
+:HL["/_next/static/chunks/0wmerawgosp7c.css","style"]
+:HL["/_next/static/media/890431f0a0104557-s.p.12wwj~hk_82v7.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"services","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"sea-freight","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"Wdd32kmWrq2pJHcWHcG6-"}
