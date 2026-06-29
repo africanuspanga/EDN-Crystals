@@ -5,7 +5,7 @@ const branches = [
   { country: "Rwanda", city: "Kigali", flag: "/icons/rwanda.png" },
   { country: "Burundi", city: "Bujumbura", flag: "/icons/burundi.png" },
   { country: "Uganda", city: "Kampala", flag: "/icons/uganda.png" },
-  { country: "Kenya", city: "Nairobi", flag: "/icons/world.png" },
+  { country: "Kenya", city: "Nairobi", flag: "/icons/kenya.png" },
 ];
 
 export function OfficeBranches() {
