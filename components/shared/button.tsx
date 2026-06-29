@@ -22,11 +22,11 @@ export function Button({
 
   const variants = {
     primary:
-      "bg-[#d2a456] text-[#002a8a] hover:bg-[#c49a4a]",
+      "bg-[#d2a456] text-[#1b294c] hover:bg-[#c49a4a]",
     secondary:
       "bg-white/15 text-white border border-white/30 backdrop-blur-sm hover:bg-white/25",
     outline:
-      "bg-transparent text-[#002a8a] border border-[#002a8a]/20 hover:border-[#d2a456] hover:text-[#d2a456]",
+      "bg-transparent text-[#1b294c] border border-[#1b294c]/20 hover:border-[#d2a456] hover:text-[#d2a456]",
   };
 
   const content = (

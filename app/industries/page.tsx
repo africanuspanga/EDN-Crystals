@@ -29,7 +29,7 @@ export default function IndustriesPage() {
                 key={industry.title}
                 className="rounded-2xl border border-[#e5e7eb] bg-[#f8fafc] p-6 transition-shadow duration-300 hover:shadow-md sm:p-8"
               >
-                <h2 className="text-lg font-semibold text-[#002a8a]">
+                <h2 className="text-lg font-semibold text-[#1b294c]">
                   {industry.title}
                 </h2>
                 <p className="mt-3 text-sm leading-relaxed text-[#667085]">
@@ -39,7 +39,7 @@ export default function IndustriesPage() {
             ))}
           </div>
 
-          <div className="mt-16 rounded-3xl bg-[#002a8a] p-8 text-center sm:p-12">
+          <div className="mt-16 rounded-3xl bg-[#1b294c] p-8 text-center sm:p-12">
             <h2 className="text-2xl font-medium tracking-tight text-white sm:text-3xl">
               Not sure which service fits your industry?
             </h2>

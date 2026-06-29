@@ -37,7 +37,7 @@ interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
 function InputField({ label, error, className, ...props }: InputProps) {
   return (
     <div className={cn("space-y-1.5", className)}>
-      <label className="text-sm font-medium text-[#002a8a]">
+      <label className="text-sm font-medium text-[#1b294c]">
         {label}
         {props.required && <span className="ml-1 text-[#d2a456]">*</span>}
       </label>
@@ -62,7 +62,7 @@ interface SelectProps extends React.SelectHTMLAttributes<HTMLSelectElement> {
 function SelectField({ label, error, options, className, ...props }: SelectProps) {
   return (
     <div className={cn("space-y-1.5", className)}>
-      <label className="text-sm font-medium text-[#002a8a]">
+      <label className="text-sm font-medium text-[#1b294c]">
         {label}
         {props.required && <span className="ml-1 text-[#d2a456]">*</span>}
       </label>
@@ -93,7 +93,7 @@ interface TextAreaProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement
 function TextAreaField({ label, error, className, ...props }: TextAreaProps) {
   return (
     <div className={cn("space-y-1.5", className)}>
-      <label className="text-sm font-medium text-[#002a8a]">
+      <label className="text-sm font-medium text-[#1b294c]">
         {label}
         {props.required && <span className="ml-1 text-[#d2a456]">*</span>}
       </label>
@@ -142,14 +142,14 @@ export function QuoteForm() {
   if (status === "success") {
     return (
       <div className="rounded-2xl bg-[#e6eefd] p-8 text-center sm:p-12">
-        <h3 className="text-xl font-semibold text-[#002a8a]">Thank you</h3>
+        <h3 className="text-xl font-semibold text-[#1b294c]">Thank you</h3>
         <p className="mt-3 text-[#667085]">
           Your quote request has been received. Our logistics team will review
           the details and contact you shortly.
         </p>
         <button
           onClick={() => setStatus("idle")}
-          className="mt-6 rounded-full bg-[#002a8a] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#002a8a]"
+          className="mt-6 rounded-full bg-[#1b294c] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#1b294c]"
         >
           Submit another request
         </button>
@@ -272,13 +272,13 @@ export function QuoteForm() {
       />
 
       <div className="rounded-lg border border-dashed border-[#e5e7eb] bg-[#f8fafc] p-4">
-        <label className="text-sm font-medium text-[#002a8a]">
+        <label className="text-sm font-medium text-[#1b294c]">
           Optional document upload
         </label>
         <input
           type="file"
           disabled
-          className="mt-2 block w-full text-sm text-[#667085] file:mr-4 file:rounded-full file:border-0 file:bg-[#002a8a] file:px-4 file:py-2 file:text-xs file:font-medium file:text-white disabled:cursor-not-allowed disabled:opacity-50"
+          className="mt-2 block w-full text-sm text-[#667085] file:mr-4 file:rounded-full file:border-0 file:bg-[#1b294c] file:px-4 file:py-2 file:text-xs file:font-medium file:text-white disabled:cursor-not-allowed disabled:opacity-50"
         />
         <p className="mt-2 text-xs text-[#667085]">
           File upload is not yet connected to a backend. Please describe your
@@ -291,7 +291,7 @@ export function QuoteForm() {
           <input
             type="checkbox"
             {...register("consent")}
-            className="mt-1 h-4 w-4 rounded border-[#e5e7eb] text-[#002a8a] focus:ring-[#d2a456]"
+            className="mt-1 h-4 w-4 rounded border-[#e5e7eb] text-[#1b294c] focus:ring-[#d2a456]"
           />
           <span className="text-sm text-[#667085]">
             I agree that EDN Crystals Logistics Limited may contact me about my
@@ -312,7 +312,7 @@ export function QuoteForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full rounded-full bg-[#d2a456] px-8 py-4 text-sm font-semibold text-[#002a8a] transition-colors hover:bg-[#c49a4a] disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
+        className="w-full rounded-full bg-[#d2a456] px-8 py-4 text-sm font-semibold text-[#1b294c] transition-colors hover:bg-[#c49a4a] disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
       >
         {status === "loading" ? "Submitting..." : "Request a Quote"}
       </button>

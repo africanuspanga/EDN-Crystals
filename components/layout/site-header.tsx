@@ -32,8 +32,8 @@ export function SiteHeader() {
         <div
           className={`mx-auto flex max-w-[1440px] items-center justify-between rounded-full border px-4 py-3 shadow-[0_16px_50px_rgba(0,0,0,0.20)] backdrop-blur-xl transition-all duration-300 sm:px-5 ${
             scrolled
-              ? "border-white/10 bg-[#002a8a]/95 py-2.5"
-              : "border-white/15 bg-[#002a8a]/80 py-3.5"
+              ? "border-white/10 bg-[#1b294c]/95 py-2.5"
+              : "border-white/15 bg-[#1b294c]/80 py-3.5"
           }`}
         >
           <Link href="/" className="flex items-center">

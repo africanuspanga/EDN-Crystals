@@ -30,11 +30,11 @@ export function MobileNavigation({ isOpen, onClose }: MobileNavigationProps) {
   return (
     <div className="fixed inset-0 z-[100] lg:hidden" role="dialog" aria-modal="true">
       <div
-        className="absolute inset-0 bg-[#002a8a]/60 backdrop-blur-sm"
+        className="absolute inset-0 bg-[#1b294c]/60 backdrop-blur-sm"
         onClick={onClose}
         aria-hidden="true"
       />
-      <div className="absolute right-0 top-0 h-full w-full max-w-sm overflow-y-auto bg-[#002a8a] p-6 shadow-2xl">
+      <div className="absolute right-0 top-0 h-full w-full max-w-sm overflow-y-auto bg-[#1b294c] p-6 shadow-2xl">
         <div className="flex items-center justify-between">
           <span className="text-lg font-semibold text-white">Menu</span>
           <button
@@ -89,7 +89,7 @@ export function MobileNavigation({ isOpen, onClose }: MobileNavigationProps) {
             <Link
               href="/request-a-quote"
               onClick={onClose}
-              className="rounded-full bg-[#d2a456] px-5 py-3 text-center text-sm font-semibold text-[#002a8a] transition-colors hover:bg-[#c49a4a]"
+              className="rounded-full bg-[#d2a456] px-5 py-3 text-center text-sm font-semibold text-[#1b294c] transition-colors hover:bg-[#c49a4a]"
             >
               Request a Quote
             </Link>

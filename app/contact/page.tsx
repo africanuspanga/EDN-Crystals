@@ -27,14 +27,14 @@ export default function ContactPage() {
           <div className="grid gap-12 lg:grid-cols-3 lg:gap-16">
             <div className="space-y-8 lg:col-span-1">
               <div>
-                <h2 className="text-xl font-semibold text-[#002a8a]">Office</h2>
+                <h2 className="text-xl font-semibold text-[#1b294c]">Office</h2>
                 <a
                   href={`https://maps.google.com/?q=${encodeURIComponent(
                     `${siteConfig.address.street}, ${siteConfig.address.city}, ${siteConfig.address.country}`
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-3 flex items-start gap-3 text-sm leading-relaxed text-[#667085] transition-colors hover:text-[#002a8a]"
+                  className="mt-3 flex items-start gap-3 text-sm leading-relaxed text-[#667085] transition-colors hover:text-[#1b294c]"
                 >
                   <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-[#d2a456]" />
                   <span>
@@ -46,7 +46,7 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <h2 className="text-xl font-semibold text-[#002a8a]">
+                <h2 className="text-xl font-semibold text-[#1b294c]">
                   Postal Address
                 </h2>
                 <p className="mt-3 flex items-start gap-3 text-sm leading-relaxed text-[#667085]">
@@ -56,18 +56,18 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <h2 className="text-xl font-semibold text-[#002a8a]">Telephone</h2>
+                <h2 className="text-xl font-semibold text-[#1b294c]">Telephone</h2>
                 <div className="mt-3 space-y-2">
                   <a
                     href={`tel:${siteConfig.telephone.replace(/\s/g, "")}`}
-                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#002a8a]"
+                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#1b294c]"
                   >
                     <Phone className="h-4 w-4 text-[#d2a456]" />
                     {siteConfig.telephone}
                   </a>
                   <a
                     href={`tel:${siteConfig.secondaryTelephone.replace(/\s/g, "")}`}
-                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#002a8a]"
+                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#1b294c]"
                   >
                     <Phone className="h-4 w-4 text-[#d2a456]" />
                     {siteConfig.secondaryTelephone}
@@ -76,18 +76,18 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <h2 className="text-xl font-semibold text-[#002a8a]">Email</h2>
+                <h2 className="text-xl font-semibold text-[#1b294c]">Email</h2>
                 <div className="mt-3 space-y-2">
                   <a
                     href={`mailto:${siteConfig.email}`}
-                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#002a8a]"
+                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#1b294c]"
                   >
                     <Mail className="h-4 w-4 text-[#d2a456]" />
                     {siteConfig.email}
                   </a>
                   <a
                     href={`mailto:${siteConfig.secondaryEmail}`}
-                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#002a8a]"
+                    className="flex items-center gap-3 text-sm font-medium text-[#667085] transition-colors hover:text-[#1b294c]"
                   >
                     <Mail className="h-4 w-4 text-[#d2a456]" />
                     {siteConfig.secondaryEmail}
@@ -96,7 +96,7 @@ export default function ContactPage() {
               </div>
 
               <div>
-                <h2 className="text-xl font-semibold text-[#002a8a]">
+                <h2 className="text-xl font-semibold text-[#1b294c]">
                   Office Hours
                 </h2>
                 <p className="mt-3 flex items-start gap-3 text-sm leading-relaxed text-[#667085]">
@@ -117,8 +117,8 @@ export default function ContactPage() {
           {/* Map placeholder */}
           <div className="mt-16 overflow-hidden rounded-2xl border border-[#e5e7eb] bg-[#e6eefd]">
             <div className="flex h-80 flex-col items-center justify-center p-6 text-center sm:h-96">
-              <MapPin className="h-10 w-10 text-[#002a8a]" />
-              <h3 className="mt-4 text-lg font-semibold text-[#002a8a]">
+              <MapPin className="h-10 w-10 text-[#1b294c]" />
+              <h3 className="mt-4 text-lg font-semibold text-[#1b294c]">
                 Office Location
               </h3>
               <p className="mt-2 max-w-md text-sm text-[#667085]">

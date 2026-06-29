@@ -20,7 +20,7 @@ export function FeatureItem({
         <Icon className="h-6 w-6 text-[#d2a456]" strokeWidth={1.5} />
       </div>
       <div>
-        <h3 className="text-base font-semibold text-[#002a8a]">{title}</h3>
+        <h3 className="text-base font-semibold text-[#1b294c]">{title}</h3>
         <p className="mt-1 text-sm leading-relaxed text-[#667085]">
           {description}
         </p>

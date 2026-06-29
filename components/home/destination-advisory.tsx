@@ -6,7 +6,7 @@ import { GoldLabel } from "@/components/shared/gold-label";
 
 export function DestinationAdvisory() {
   return (
-    <section className="relative overflow-hidden bg-[#002a8a] py-20 sm:py-28 lg:py-36">
+    <section className="relative overflow-hidden bg-[#1b294c] py-20 sm:py-28 lg:py-36">
       {/* Decorative grid lines */}
       <div className="pointer-events-none absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] bg-[size:4rem_4rem]" />
@@ -42,7 +42,7 @@ export function DestinationAdvisory() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.15 }}
-            className="relative border-l-2 border-[#d2a456] bg-[#002a8a]/40 p-8 backdrop-blur-sm sm:p-10 lg:p-12"
+            className="relative border-l-2 border-[#d2a456] bg-[#1b294c]/40 p-8 backdrop-blur-sm sm:p-10 lg:p-12"
           >
             <span className="absolute -left-[2px] top-0 h-16 w-[2px] bg-[#d2a456]" />
             <span

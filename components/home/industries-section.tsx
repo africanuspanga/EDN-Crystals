@@ -27,7 +27,7 @@ export function IndustriesSection() {
               transition={{ duration: 0.4, delay: index * 0.05 }}
               className="rounded-2xl border border-[#e5e7eb] bg-white p-6 transition-shadow duration-300 hover:shadow-md"
             >
-              <h3 className="text-base font-semibold text-[#002a8a]">
+              <h3 className="text-base font-semibold text-[#1b294c]">
                 {industry.title}
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-[#667085]">
@@ -40,7 +40,7 @@ export function IndustriesSection() {
         <div className="mt-12 text-center">
           <Link
             href="/industries"
-            className="group inline-flex items-center gap-2 rounded-full bg-[#002a8a] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#002a8a]"
+            className="group inline-flex items-center gap-2 rounded-full bg-[#1b294c] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#1b294c]"
           >
             View all industries
             <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-1" />

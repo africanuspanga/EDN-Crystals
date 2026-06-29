@@ -14,7 +14,7 @@ interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
 function InputField({ label, error, className, ...props }: InputProps) {
   return (
     <div className={cn("space-y-1.5", className)}>
-      <label className="text-sm font-medium text-[#002a8a]">
+      <label className="text-sm font-medium text-[#1b294c]">
         {label}
         {props.required && <span className="ml-1 text-[#d2a456]">*</span>}
       </label>
@@ -38,7 +38,7 @@ interface TextAreaProps extends React.TextareaHTMLAttributes<HTMLTextAreaElement
 function TextAreaField({ label, error, className, ...props }: TextAreaProps) {
   return (
     <div className={cn("space-y-1.5", className)}>
-      <label className="text-sm font-medium text-[#002a8a]">
+      <label className="text-sm font-medium text-[#1b294c]">
         {label}
         {props.required && <span className="ml-1 text-[#d2a456]">*</span>}
       </label>
@@ -83,14 +83,14 @@ export function ContactForm() {
   if (status === "success") {
     return (
       <div className="rounded-2xl bg-[#e6eefd] p-8 text-center sm:p-12">
-        <h3 className="text-xl font-semibold text-[#002a8a]">Message sent</h3>
+        <h3 className="text-xl font-semibold text-[#1b294c]">Message sent</h3>
         <p className="mt-3 text-[#667085]">
           Thank you for contacting us. A member of our logistics team will
           respond as soon as possible.
         </p>
         <button
           onClick={() => setStatus("idle")}
-          className="mt-6 rounded-full bg-[#002a8a] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#002a8a]"
+          className="mt-6 rounded-full bg-[#1b294c] px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-[#1b294c]"
         >
           Send another message
         </button>
@@ -148,7 +148,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full rounded-full bg-[#d2a456] px-8 py-4 text-sm font-semibold text-[#002a8a] transition-colors hover:bg-[#c49a4a] disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
+        className="w-full rounded-full bg-[#d2a456] px-8 py-4 text-sm font-semibold text-[#1b294c] transition-colors hover:bg-[#c49a4a] disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
       >
         {status === "loading" ? "Sending..." : "Send Message"}
       </button>

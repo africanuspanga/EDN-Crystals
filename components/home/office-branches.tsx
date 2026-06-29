@@ -26,10 +26,10 @@ export function OfficeBranches() {
               key={branch.country}
               className="group rounded-2xl border border-[#e5e7eb] bg-[#f8fafc] p-6 transition-all duration-200 hover:border-[#d2a456] hover:shadow-md"
             >
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#002a8a]/10">
-                <MapPin className="h-5 w-5 text-[#002a8a]" />
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#1b294c]/10">
+                <MapPin className="h-5 w-5 text-[#1b294c]" />
               </div>
-              <h3 className="mt-5 text-lg font-semibold text-[#002a8a]">
+              <h3 className="mt-5 text-lg font-semibold text-[#1b294c]">
                 {branch.country}
               </h3>
               <p className="mt-1 text-sm text-[#667085]">{branch.city}</p>

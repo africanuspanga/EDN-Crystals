@@ -34,7 +34,7 @@ export function FloatingContactButtons() {
         {showScrollTop && (
           <button
             onClick={scrollToTop}
-            className="flex h-11 w-11 items-center justify-center rounded-full bg-[#002a8a] text-white shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#d2a456]"
+            className="flex h-11 w-11 items-center justify-center rounded-full bg-[#1b294c] text-white shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#d2a456]"
             aria-label="Scroll to top"
           >
             <ArrowUp className="h-5 w-5" />
@@ -59,7 +59,7 @@ export function FloatingContactButtons() {
         )}
         <a
           href={phoneHref}
-          className="flex h-12 w-12 items-center justify-center rounded-full bg-[#d2a456] text-[#002a8a] shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white"
+          className="flex h-12 w-12 items-center justify-center rounded-full bg-[#d2a456] text-[#1b294c] shadow-lg transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white"
           aria-label="Call us"
         >
           <Phone className="h-5 w-5" />
@@ -67,7 +67,7 @@ export function FloatingContactButtons() {
       </div>
 
       {/* Mobile bottom contact bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-40 flex items-center justify-around gap-3 border-t border-white/10 bg-[#002a8a]/95 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-lg lg:hidden">
+      <div className="fixed bottom-0 left-0 right-0 z-40 flex items-center justify-around gap-3 border-t border-white/10 bg-[#1b294c]/95 p-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] backdrop-blur-lg lg:hidden">
         <a
           href={phoneHref}
           className="flex flex-1 items-center justify-center gap-2 rounded-full bg-white/10 py-3 text-sm font-medium text-white transition-colors hover:bg-white/20"
@@ -96,7 +96,7 @@ export function FloatingContactButtons() {
         )}
         <Link
           href="/request-a-quote"
-          className="flex flex-1 items-center justify-center rounded-full bg-white py-3 text-sm font-semibold text-[#002a8a] transition-colors hover:bg-white/90"
+          className="flex flex-1 items-center justify-center rounded-full bg-white py-3 text-sm font-semibold text-[#1b294c] transition-colors hover:bg-white/90"
         >
           Quote
         </Link>
