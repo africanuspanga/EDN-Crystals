@@ -76,7 +76,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.55 }}
-            className="absolute bottom-10 left-0 right-0 px-4 sm:px-6 lg:bottom-14 lg:px-10"
+            className="absolute bottom-10 left-0 right-0 hidden px-4 sm:block sm:px-6 lg:bottom-14 lg:px-10"
           >
             <div className="mx-auto grid max-w-[1440px] grid-cols-1 gap-6 border-t border-white/10 pt-8 sm:grid-cols-3 lg:gap-0 lg:pt-10">
               {stats.map((stat, index) => (
